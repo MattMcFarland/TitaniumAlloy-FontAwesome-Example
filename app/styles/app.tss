@@ -1,5 +1,5 @@
 ".container": {
-	backgroundColor:"0D9F73"
+	backgroundColor:"#0D9F73"
 },
 "View": {
 	width: Ti.UI.SIZE,
@@ -59,7 +59,7 @@
 }
 ".caption": {
 	bottom:'1',
-	backgroundColor:'0C8A63',
+	backgroundColor:'#0C8A63',
 	width:'95%',
 	layout:'vertical'
 }

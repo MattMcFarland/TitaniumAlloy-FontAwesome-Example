@@ -1,0 +1,427 @@
+<Alloy>
+    <Window class="container">
+        <ScrollView layout="vertical" width="95%" height="99%" top="28">
+            <View layout="horizontal" width="100%">
+                <View left="5%" layout="vertical" width="55%">
+                    <Label>Font Awesome</Label>
+                    <Label>Version 4.1.0</Label>
+                    <Label>www.fontawesome.io</Label>
+                </View>
+                <View width="40%">
+                    <Label class="font-lg" icon="fa-flag" />
+                </View>
+            </View>
+            <View layout="horizontal">
+                <Label class="font-xs" text="You can scroll down" />
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-glass" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-glass" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-music" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-music" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-search" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-search" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-envelope-o" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-envelope-o" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-heart" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-heart" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-star" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-star" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-star-o" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-star-o" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-user" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-user" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-film" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-film" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-th-large" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-th-large" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-th" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-th" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-th-list" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-th-list" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-check" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-check" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-times" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-times" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-search-plus" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-search-plus" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-search-minus" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-search-minus" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-power-off" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-power-off" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-signal" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-signal" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-gear" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-gear" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-cog" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-cog" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-trash-o" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-trash-o" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-home" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-home" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-file-o" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-file-o" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-clock-o" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-clock-o" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-road" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-road" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-download" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-download" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-arrow-circle-o-down" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-arrow-circle-o-down" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-arrow-circle-o-up" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-arrow-circle-o-up" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-inbox" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-inbox" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-play-circle-o" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-play-circle-o" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-rotate-right" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-rotate-right" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-repeat" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-repeat" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-refresh" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-refresh" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-list-alt" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-list-alt" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-lock" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-lock" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-flag" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-flag" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-headphones" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-headphones" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-volume-off" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-volume-off" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-volume-down" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-volume-down" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-volume-up" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-volume-up" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-qrcode" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-qrcode" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-barcode" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-barcode" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-tag" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-tag" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-tags" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-tags" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-book" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-book" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-bookmark" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-bookmark" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-print" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-print" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-camera" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-camera" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-font" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-font" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-bold" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-bold" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-italic" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-italic" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-text-height" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-text-height" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-text-width" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-text-width" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-align-left" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-align-left" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-align-center" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-align-center" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-align-right" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-align-right" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-align-justify" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-align-justify" />
+                    </View>
+                </View>
+            </View>
+            <View class="row">
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-list" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-list" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-dedent" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-dedent" />
+                    </View>
+                </View>
+                <View class="col">
+                    <Label class="fa-icon" icon="fa-outdent" />
+                    <View class="caption">
+                        <Label class="font-xxs" text="fa-outdent" />
+                    </View>
+                </View>
+            </View>
+            <View class="row" height=Ti.UI.SIZE>
+            	<View layout="vertical" horizontalWrap="true">
+	            	<Label class="h1">That's NOT all of 'em!</Label>
+	            	<Label top="10" bottom="30">Hundreds more, but due to limitations I can't put them all in one single android view. Visit fontawesome.io or build to ios to see more.</Label>
+            	</View>
+            </View>
+        </ScrollView>
+        <!-- Put the widget at the bottom just before /Window  -->
+        <Widget src="com.mattmcfarland.fontawesome" id="fontAwesome" />
+    </Window>
+</Alloy>

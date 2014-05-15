@@ -1,0 +1,1 @@
+$.browse_icons.open();
