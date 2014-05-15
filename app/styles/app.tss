@@ -1,0 +1,72 @@
+".container": {
+	backgroundColor:"0D9F73"
+},
+"View": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE
+}
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#fff"
+},
+".font-lg": {
+	font: {
+		fontSize:'90dp'
+	}
+},
+".fa-button":{
+	font: {
+		fontSize:'46dp'
+	},
+	height:'90dp',
+	color:'white',
+	borderRadius:12,
+	backgroundColor:'transparent',
+	borderColor:'white',
+	borderWidth:'4',
+	width:'210dp'
+}
+".font-xs": {
+	font: {
+		fontSize:'12dp'
+	}
+}
+".font-xxs": {
+	font: {
+		fontSize:'10dp'
+	}
+}
+".row": {
+	width:'100%',
+	height: Ti.UI.SIZE,
+	layout:'horizontal',
+	horizontalWrap:'false'
+}
+".col": {
+	layout:'composite',
+	width:'33.33%',
+	height: '60dp',
+	borderWeight:'1',
+	borderColor:'#0D9A73',
+}
+".fa-icon": {
+	top:'8',
+	color:'white',
+	font: {
+		fontSize:'28dp'
+	}
+}
+".caption": {
+	bottom:'1',
+	backgroundColor:'0C8A63',
+	width:'95%',
+	layout:'vertical'
+}
+".h1": {
+	top:'8dp',bottom:'8dp',
+	font: {
+		fontWeight:'bold',
+		fontSize:'24'
+	}
+}

@@ -1,0 +1,26 @@
+<Alloy>
+	<Window class="container">
+		<View layout="vertical" width="95%" top="40">
+			<View layout="horizontal" width="100%">
+				<View left="5%" layout="vertical" width="55%">
+					<Label>Font Awesome</Label>
+					<Label>Version 4.1.0</Label>
+					<Label>www.fontawesome.io</Label>
+				</View>
+				<View width="40%">	
+					<Label class="font-lg" icon="fa-flag" />
+				</View>
+			</View>
+			<View layout="horizontal">
+				<Label class="font-xs" text="Font by Dave Gandy "></Label>
+				<Label class="font-xs" icon="fa-circle-o" text=" "/>
+				<Label class="font-xs">Widget by Matt McFarland</Label>
+			</View>
+			<View layout="horizontal" horizontalWrap="false" id="marquee_left"/>
+			<Button top="110" class="fa-button" icon="fa-rocket" onClick="next" title="Start"/>
+		</View>
+		<Label bottom="1">Let the Awesome Begin!</Label>
+		<!-- Put the widget at the bottom just before /Window  -->
+		<Widget src="com.mattmcfarland.fontawesome" id="fontAwesome"/>
+	</Window>
+</Alloy>
