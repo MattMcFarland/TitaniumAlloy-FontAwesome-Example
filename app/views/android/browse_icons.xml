@@ -1,10 +1,10 @@
 <Alloy>
     <Window class="container">
-        <ScrollView layout="vertical" width="95%" height="99%" top="28">
-            <View layout="horizontal" width="100%">
+        <ScrollView layout="vertical" width="95%" height="99%" top="0">
+            <View top="10" layout="horizontal" width="100%">
                 <View left="5%" layout="vertical" width="55%">
-                    <Label>Font Awesome</Label>
-                    <Label>Version 4.1.0</Label>
+                    <Label>FontAwesome 4.1.0</Label>
+                    <Label>Version 1.0.3</Label>
                     <Label>www.fontawesome.io</Label>
                 </View>
                 <View width="40%">
@@ -414,7 +414,7 @@
                     </View>
                 </View>
             </View>
-            <View class="row" height=Ti.UI.SIZE>
+            <View class="row" height="100">
             	<View layout="vertical" horizontalWrap="true">
 	            	<Label class="h1">That's NOT all of 'em!</Label>
 	            	<Label top="10" bottom="30">Hundreds more, but due to limitations I can't put them all in one single android view. Visit fontawesome.io or build to ios to see more.</Label>

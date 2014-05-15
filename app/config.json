@@ -8,6 +8,6 @@
 	"os:ios": {},
 	"os:mobileweb": {},
 	"dependencies": {
-	     "com.mattmcfarland.fontawesome":"4.1.0"
+	     "com.mattmcfarland.fontawesome":"1.0.3"
 	}
 }

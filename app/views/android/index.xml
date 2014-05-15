@@ -1,12 +1,12 @@
 <Alloy>
 	<Window class="container">
-		<View layout="vertical" width="95%" top="40">
+		<View layout="vertical" width="95%" top="20">
 			<View layout="horizontal" width="100%">
-				<View left="5%" layout="vertical" width="55%">
-					<Label>Font Awesome</Label>
-					<Label>Version 4.1.0</Label>
-					<Label>www.fontawesome.io</Label>
-				</View>
+                <View left="5%" layout="vertical" width="55%">
+                    <Label>FontAwesome 4.1.0</Label>
+                    <Label>Version 1.0.3</Label>
+                    <Label>www.fontawesome.io</Label>
+                </View>
 				<View width="40%">	
 					<Label class="font-lg" icon="fa-flag" />
 				</View>
