@@ -24,7 +24,7 @@ This is a widget for the [Appcelerator](http://www.appcelerator.com) [Alloy](htt
 
 ```javascript
 "dependencies": {
-	"com.mattmcfarland.fontawesome":"1.0.3"
+	"com.mattmcfarland.fontawesome":"1.1.0"
 }
 ```
 
@@ -57,11 +57,10 @@ That's it. You simply add your Icons in a very similar way we do it with HTML 5.
 <Label icon = "fa-glass"></Label>
 ```
 
-### JS Methods:
+### Documentation
 
-**Assuming you have created a widget instance with the id of `fa`**
 
-#### add
+For a more comprehensive overview, [review the docs](http://mattmcfarland.github.io/com.mattmcfarland.fontawesome/doc/Widget.html)
 
 
 ### FAQ 
@@ -117,7 +116,8 @@ Created by Matt McFarland and Licensed under GPL
 ### Changelog
 
 **Version 1.1.0**
-* Added JS methods for adding/removing/refreshing icons.
+* [feature] Added JS methods for adding/removing/refreshing icons.
+* [feature] Added JS documentation
 
 **Version 1.0.3** 
 * Established symantic versioning, fixed android bugs.

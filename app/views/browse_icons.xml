@@ -4,8 +4,9 @@
             <View layout="horizontal" width="100%">
                 <View left="5%" layout="vertical" width="55%">
                     <Label>FontAwesome 4.1.0</Label>
-                    <Label>Version 1.0.3</Label>
+                    <Label>Version 1.1.0</Label>
                     <Label>www.fontawesome.io</Label>
+                    <Label id="no_icon_here"></Label>
                 </View>
                 <View width="40%">
                     <Label class="font-lg" icon="fa-flag" />
