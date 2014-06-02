@@ -1,3 +1,74 @@
+/**
+ * @file icons.js 
+ * @namespace icons.js
+ * @summary /lib/icons/icons.js
+ * @since v1.0.0
+ * @author Matthew McFarland
+ * @desc 
+ * Copy this file and make sure it has the same members/methods.
+ */
+
+/**
+ * @public
+ * @name fontFamily
+ * @since v1.2.0
+ * @type {String}
+ * @memberOf icons.js#
+ * @default 'FontAwesome'
+ */
+exports.fontFamily = 'FontAwesome';
+
+/**
+ * @public
+ * @name prefix
+ * @since v1.2.0
+ * @memberOf icons.js#
+ * 
+ * @type {String}
+ * 
+ * @default '.fa'
+ */
+exports.prefix = 'fa-';
+
+/**
+ * @public 
+ * @name defaultSize
+ * @since v1.2.0
+ * @memberOf icons.js#
+ * 
+ * @type {String}
+ * 
+ * @default '16dp'
+ */
+exports.defaultSize = '16dp';
+
+/**
+ * @public 
+ * @name charMap
+ * @memberOf icons.js#
+ * @since v1.2.0
+ * @type {Array}
+ * 
+ * @summary Icon Character Map in an Array.
+ * 
+ * @default 'see icons.js'
+ * 
+ * @desc
+ * An array of 2 celled arrays that contain the icon name and its character value.
+ *   
+ * @example
+ * [
+ *   ["fa-glass", 0xf000],
+ *   ["fa-music", 61441],
+ * ...]
+ * 
+ * ].forEach(function (e) {
+ *	exports.charMap[e[0]] = String.fromCharCode(e[1]);
+ *});
+ * 
+ */
+exports.charMap = new Array;
+
 [
     ["fa-glass", 0xf000],
     ["fa-music", 61441],
@@ -503,5 +574,5 @@
     ["fa-share-alt-square", 61921],
     ["fa-bomb", 61922]
 ].forEach(function (e) {
-    exports[e[0]] = String.fromCharCode(e[1]);
+    exports.charMap[e[0]] = String.fromCharCode(e[1]);
 });
